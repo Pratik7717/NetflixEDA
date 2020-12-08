@@ -1,0 +1,2 @@
+# NetflixEDA
+permalink: index.html
