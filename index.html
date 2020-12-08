@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google fonts link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+        crossorigin="anonymous">
+
+    <!-- custom styles-->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <title>Netflix EDA</title>
+</head>
+
+<body>
+
+    <!--Header Start-->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h2 class="navbar-brand lead">Netflix Data Visualization And Recommondation System</h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <!--Main Section start-->
+    <div class="container-fluid jumbotron" style="height: 100vh;">
+        <div class="container">
+            <h1 class="display-4 text-center">Netflix EDA and Recommondation System</h1>
+            <p class="lead">Recommendation Engine:
+                The engine is expected to carry out 4 fairly simple tasks:
+                <ul class="list-group">
+                    <li class="list-group-item">Get the index of the requested show title.</li>
+                    <li class="list-group-item">Compute the cosine similarity of all shows to this show.</li>
+                    <li class="list-group-item">Sort the results from step 2 from the highest cosine similarity to lowest and get the top 5.</li>
+                    <li class="list-group-item">Return the shows titles and similarity confidence (cosine similarity) in JSON format.</li>
+                    
+                </ul>
+                <br>
+                Flask API: <br><br>
+                API and server should work in the following way: <br><br>
+                <ul class="list-group">
+                    <li class="list-group-item">Load title column as an index dataframe.</li>
+                    <li class="list-group-item">Load previously saved TF-I</li>
+                </ul>
+                <br>
+                
+            </p>
+            <p class="lead">
+            </p>
+    
+    
+    
+            <div class="container">
+    
+                <div class="row rowmid align-items-center justify-content-center">
+                    <div class="col-md-4">
+    
+                        <div class="card border-dark" style="width: 18rem; height:25vh;">
+                            <div class="card-body">
+                                <h5 class="card-title">Tableau Dashboard</h5>
+                                <p class="card-text">Visualize the content from different countries,languages,type of content like movies,T.V shows here.</p>
+                                <a href="dashboard.html" class="btn btn-primary">View Here</a>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+
+                    <div class="col-md-4">
+    
+                        <div class="card border-dark" style="width: 18rem; height: 25vh;">
+                            <div class="card-body">
+                                <h5 class="card-title">Tableau Dashboard</h5>
+                                <p class="card-text">Visualize performance of best directors in the industry here.</p>
+                                <br>
+                                <a href="dashboard2.html" class="btn btn-primary mt-4">View Here</a>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+    
+                    <div class="col-md-4">
+    
+                        <div class="card border-dark" style="width: 18rem; height: 25vh;">
+                            <div class="card-body">
+                                <h5 class="card-title">Recommondation System </h5>
+                                <p class="card-text">API Documentation and testing with FLASGGER</p>
+                                <br>
+                                <a href="https://netflix-recommendation-test.herokuapp.com/apidocs/" class="btn btn-primary mt-4">View Here</a>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
